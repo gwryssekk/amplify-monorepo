@@ -8,8 +8,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        app1
-	  </p>
+          app1
+        </p>
+        <p>
+          Phrase: {process.env.REACT_APP_PHRASE}
+        </p>
+ 
         <a
           className="App-link"
           href="https://reactjs.org"

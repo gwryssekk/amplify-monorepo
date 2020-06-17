@@ -10,6 +10,9 @@ function App() {
         <p>
           app2
         </p>
+        <p>
+          Phrase: {process.env.REACT_APP_PHRASE}
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
