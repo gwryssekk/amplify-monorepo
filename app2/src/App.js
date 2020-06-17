@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          app2!
+          app2!!!
         </p>
         <p>
           Phrase: {process.env.REACT_APP_PHRASE}
